@@ -16,7 +16,8 @@
   ],
   "scripts": {
     "build": "vite build",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "vitest"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.16.1",

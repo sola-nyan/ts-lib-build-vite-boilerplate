@@ -10,5 +10,10 @@ export default defineConfig({
       fileName: format => `index.${format}.js`,
     },
   },
+  test: {
+    alias: {
+      '~': path.resolve(__dirname, './src'),
+    },
+  },
   plugins: [dts()],
 })
